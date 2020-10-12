@@ -12,5 +12,12 @@
   "bugs": {
     "url": "https://github.com/PurpleMagick/iterative_utils/issues"
   },
-  "homepage": "https://github.com/PurpleMagick/iterative_utils#readme"
+  "homepage": "https://github.com/PurpleMagick/iterative_utils#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.4.1",
+    "@typescript-eslint/parser": "^4.4.1",
+    "eslint": "^7.11.0",
+    "jest": "^26.5.3",
+    "typescript": "^4.0.3"
+  }
 }
