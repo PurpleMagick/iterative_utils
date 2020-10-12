@@ -1,0 +1,16 @@
+{
+  "name": "iterative_utils",
+  "version": "0.0.1",
+  "description": "Utilities to work with iterative data instead of just arrays",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": "git+https://github.com/PurpleMagick/iterative_utils.git",
+  "author": "PurpleMagick",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PurpleMagick/iterative_utils/issues"
+  },
+  "homepage": "https://github.com/PurpleMagick/iterative_utils#readme"
+}
