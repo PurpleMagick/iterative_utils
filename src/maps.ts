@@ -6,6 +6,6 @@ export function* toEntries<T, Key, Value>(keyMapper: Mapping<T, Key>, valueMappe
 	}
 }
 
-export function toMap<T, Key, Value>(keyMapper: Mapping<T, Key>, valueMapper: Mapping<T, Value>, data: Iterable<T>) {
+export function toMap<T, Key, Value>(keyMapper: Mapping<T, Key>, valueMapper: Mapping<T, Value>, data: Iterable<T>): Map<Key, Value> {
 	return new Map(toEntries(keyMapper, valueMapper, data));
 }

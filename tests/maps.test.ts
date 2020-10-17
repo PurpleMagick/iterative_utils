@@ -1,3 +1,5 @@
+/* eslint-disable no-multi-spaces */
+/* eslint-disable no-whitespace-before-property */
 import { toEntries, toMap } from "../src/maps";
 
 const identity = (x: number) => x;
